@@ -1,0 +1,15 @@
+[package]
+name = "mtl-say-hello"
+version = "0.3.0"
+edition = "2021"
+description = "This is a simple say hello library from learning rust. Please DO NOT use this"
+license = "Apache-2.0"
+authors = ["Manuel Leleuly"]
+
+[features]
+hello = []
+bye = []
+all = ["hello", "bye"]
+default = ["hello"]
+
+[dependencies]

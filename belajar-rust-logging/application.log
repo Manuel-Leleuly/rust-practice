@@ -1,0 +1,8 @@
+2024-12-23T20:50:46.027104100+07:00 ERROR belajar_golang_logging::main_test::tests - this is an error
+2024-12-23T20:50:46.027343400+07:00 WARN belajar_golang_logging::main_test::tests - this is a warning
+2024-12-23T20:50:46.027553800+07:00 INFO belajar_golang_logging::main_test::tests - this is an info
+2024-12-23T20:51:05.433360600+07:00 ERROR belajar_golang_logging::main_test::tests - this is an error
+2024-12-23T20:51:05.433588400+07:00 WARN belajar_golang_logging::main_test::tests - this is a warning
+2024-12-23T20:51:05.433676300+07:00 INFO belajar_golang_logging::main_test::tests - this is an info
+2024-12-23T20:51:05.433891600+07:00 DEBUG belajar_golang_logging::main_test::tests - this is a debug
+2024-12-23T20:51:05.434220700+07:00 TRACE belajar_golang_logging::main_test::tests - this is a trace

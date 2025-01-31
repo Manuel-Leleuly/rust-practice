@@ -1,0 +1,19 @@
+appenders:
+  stdout:
+    kind: console
+  app_file:
+    kind: file
+    path: application_2.log
+    append: true
+
+root:
+  level: trace
+  appenders:
+    - stdout
+    - app_file
+
+loggers:
+  belajar_rust_logging::main_test::tests:
+    level: info
+  belajar_rust_logging::main_test::tests2:
+    level: warn
